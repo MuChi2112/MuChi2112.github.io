@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MissionEngine</title>
+  <meta name="description" content="MissionEngine is a personal planning assistant that reads Gmail and Google Calendar in read-only mode to organize dates, reminders and decisions.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>MissionEngine</h1>
+    <p class="lede">把郵件和行事曆整理成每天的計畫與提醒的個人規劃助理。</p>
+    <p class="lede">A personal planning assistant that turns email and calendar events into daily plans and reminders.</p>
+    <p class="lang"><a href="#en">English</a> ・ <a href="privacy.html">隱私權政策 / Privacy Policy</a></p>
+  </header>
+
+  <main>
+    <section class="locale" lang="zh-Hant">
+      <h2>MissionEngine 是什麼</h2>
+      <p>MissionEngine 是由開發者自行架設與使用的個人工具。它會閱讀授權帳號的新郵件與行事曆變動，找出真正需要注意的內容，例如日期、期限、訂單與需要做決定的事，再放進每日規劃，並透過 Discord 私訊提醒使用者。</p>
+
+      <h2>主要功能</h2>
+      <ul>
+        <li>把行事曆行程與有日期的事件放進對應的日期。</li>
+        <li>篩掉促銷與不重要的郵件，只留下需要注意的內容。</li>
+        <li>把訂單、付款與物流通知對回同一筆購買紀錄。</li>
+        <li>遇到需要選擇的事，例如要不要參加活動，先詢問使用者，不會自行決定。</li>
+      </ul>
+
+      <h2>為什麼需要 Google 帳號權限</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>權限</th><th>用途</th></tr></thead>
+          <tbody>
+            <tr><td>Gmail 唯讀<br><code>gmail.readonly</code></td><td>閱讀新郵件，判斷其中是否有日期、期限、訂單或需要回應的事。</td></tr>
+            <tr><td>Google 日曆唯讀<br><code>calendar.readonly</code></td><td>讀取行程與異動，放進每日規劃。</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>MissionEngine 只有唯讀權限，無法寄信、刪信、修改郵件，也無法變更行事曆。</p>
+
+      <h2>誰可以使用</h2>
+      <p>MissionEngine 目前僅供開發者本人管理的帳號使用，不開放公開註冊，也沒有付費方案。</p>
+
+      <h2>隱私權與聯絡方式</h2>
+      <p>資料如何被存取、使用、儲存與保護，請參閱<a href="privacy.html">隱私權政策</a>。如有問題，請到 <a href="https://github.com/MuChi2112/MuChi2112.github.io/issues">GitHub Issues</a> 聯絡開發者。</p>
+    </section>
+
+    <section class="locale" id="en" lang="en">
+      <h2>What MissionEngine is</h2>
+      <p>MissionEngine is a personal tool that its developer hosts and uses. It reads new email and calendar changes from authorized accounts, picks out what needs attention, such as dates, deadlines, orders and decisions, adds it to a daily plan, and sends reminders by Discord direct message.</p>
+
+      <h2>Main features</h2>
+      <ul>
+        <li>Places calendar events and dated items on the right day.</li>
+        <li>Filters out promotions and unimportant email.</li>
+        <li>Matches order, payment and shipping notices to a single purchase record.</li>
+        <li>Asks the user before acting on anything that involves a choice, such as whether to attend an event.</li>
+      </ul>
+
+      <h2>Why it requests Google permissions</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Permission</th><th>Purpose</th></tr></thead>
+          <tbody>
+            <tr><td>Gmail read-only<br><code>gmail.readonly</code></td><td>Reads new email to find dates, deadlines, orders and items that need a response.</td></tr>
+            <tr><td>Google Calendar read-only<br><code>calendar.readonly</code></td><td>Reads events and changes to add them to the daily plan.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Access is read-only. MissionEngine cannot send, delete or modify email, and cannot change calendars.</p>
+
+      <h2>Who can use it</h2>
+      <p>MissionEngine is currently limited to accounts managed by its developer. There is no public sign-up and no paid plan.</p>
+
+      <h2>Privacy and contact</h2>
+      <p>See the <a href="privacy.html#en">Privacy Policy</a> for how data is accessed, used, stored and protected. For questions, contact the developer through <a href="https://github.com/MuChi2112/MuChi2112.github.io/issues">GitHub Issues</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="privacy.html">隱私權政策 / Privacy Policy</a>
+  </footer>
+</body>
+</html>
